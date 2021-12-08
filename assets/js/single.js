@@ -22,7 +22,7 @@ var getRepoIssues = function (repo) {
         }
     });
 }
-
+// function to get repoName passed from homepage.js displayRepos function line 56
 var getRepoName =  function () {
     // grab repo name from url query string
     var queryString = document.location.search;
